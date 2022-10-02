@@ -94,11 +94,11 @@ async function resBinario_Numero() {
                     if (window.navigator.onLine) {
                         //alert("si hay internet");
                         //const response = await fetch('http://localhost:7079/api/Function1?' + 'bn' + numBinario);
-                        https://fbinario1.azurewebsites.net/api/Function1
+                        //https://fbinario1.azurewebsites.net/api/Function1
                         const response = await fetch('https://fbinario1.azurewebsites.net/api/Function1?' + 'bn' + numBinario);
                         //alert(response.ok);
                         const data = await response.text();
-                        alert(data);
+                        //alert(data);
                         document.getElementById("resultado").innerHTML = data;
                     } else {
                         alert(" no hay conexion a internet");
@@ -131,7 +131,7 @@ async function resNumero_Binario() {
                     //https://fbinario1.azurewebsites.net/api/Function1
                     //alert(response.ok);
                     const data = await response.text();
-                    alert(data);
+                    //alert(data);
                     document.getElementById("resultado").innerHTML = data;
                 } else {
                     alert(" no hay conexion a internet");
