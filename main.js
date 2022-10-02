@@ -20,7 +20,7 @@ function web0() {
     let web = document.getElementById('elem');
     web.innerHTML = `
     <br>
-    <h2> Hola Pablo Humberto <h3>
+    <h2> Hola Pablo Humberto Arriola Agudelo <h3>
     <h3 style="color:red"> Conversión Binario Número <h3>
     <br>
     <button type="submit" onclick="web1()"> BINARIO a NUMERO </button>
